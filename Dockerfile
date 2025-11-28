@@ -9,4 +9,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/aws /tmp/awscliv2.zip
 
 # Optional: show versions at build time
-RUN mongo --version && aws --version
+RUN mongodump --version && aws --version
